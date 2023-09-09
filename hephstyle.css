@@ -1,4 +1,24 @@
-body{
-    background-color: #202124;
-    color: white;
+.acc {
+    color: teal;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+body {
+  background-color: grey;
+}
+
+.home {
+  color: teal;
+  font-family: Lucida Handwriting;
+  font-size: 1.5rem;
+  margin-left: 1.8rem;
+}
+
+.top-bar {
+    align-items: end;
+  background-color: rgb(168, 164, 164);
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: space-between;
 }
