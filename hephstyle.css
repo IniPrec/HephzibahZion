@@ -1,24 +1,52 @@
 .acc {
-    color: teal;
-    font-size: 1.5rem;
-    margin-right: 1rem;
+  color: pink;
+  font-size: 1.5rem;
+  margin-right: 1rem;
 }
 
 body {
   background-color: grey;
 }
 
-.home {
-  color: teal;
+li {
+    float: left;
+    margin-right: 1.8rem;
+}
+
+li a {
+    align-items: center;
+    color: pink;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: deeppink;
+}
+
+.logo {
+  color: pink;
   font-family: Lucida Handwriting;
   font-size: 1.5rem;
   margin-left: 1.8rem;
 }
 
+.home {
+    background-color: pink;
+    border-radius: 0.1rem;
+    color: ;
+}
+
 .top-bar {
-    align-items: end;
+  align-items: end;
   background-color: rgb(168, 164, 164);
-  border-radius: 0.3rem;
+  border-radius: 0.1rem;
   display: flex;
   justify-content: space-between;
+
+}
+
+ul {
+    list-style-type: none;
 }
