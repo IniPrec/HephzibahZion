@@ -1,11 +1,20 @@
 .acc {
-  color: pink;
-  font-size: 1.5rem;
-  margin-right: 1rem;
+  font-size: 2rem;
+  margin-left: 5rem;
+  padding-top: 2rem;
 }
 
 body {
-  background-color: grey;
+  background-color: rgb(226, 64, 64);
+}
+
+.edit {
+    color: rgb(182, 3, 3);
+}
+
+footer {
+    background-color: grey;
+    padding-bottom: 2rem;
 }
 
 li {
@@ -15,33 +24,50 @@ li {
 
 li a {
     align-items: center;
-    color: pink;
+    color: rgb(177, 42, 42);
     display: block;
+    font-family: Monaco, monospace;
     text-align: center;
     text-decoration: none;
 }
 
 li a:hover {
-    color: deeppink;
+    color: red;
 }
 
 .logo {
-  color: pink;
-  font-family: Lucida Handwriting;
+  
   font-size: 1.5rem;
-  margin-left: 1.8rem;
+  margin-left: 3rem;
+  padding-bottom: 0.1rem;
+  padding-top: 0.5rem;
 }
 
-.home {
-    background-color: pink;
-    border-radius: 0.1rem;
-    color: ;
+.logo1 {
+    float: right;
+    padding-top: 2rem;
 }
 
-.top-bar {
+.mssg {
+    font-family: cursive;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.nav {
+    margin-right: 5rem;
+    padding-bottom: 1.5rem;
+}
+
+.welcome {
+    background-color: rgba(255, 255, 0, 0.6);
+    border-radius: 0.2rem;
+}
+
+header {
   align-items: end;
-  background-color: rgb(168, 164, 164);
-  border-radius: 0.1rem;
+  background-color: yellow;
+  border-radius: 0.3rem;
   display: flex;
   justify-content: space-between;
 
