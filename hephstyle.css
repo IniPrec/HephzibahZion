@@ -4,17 +4,30 @@
   padding-top: 2rem;
 }
 
+.acc a {
+    color: black;
+}
+
 body {
-  background-color: rgb(226, 64, 64);
 }
 
 .edit {
-    color: rgb(182, 3, 3);
+    color: rgb(53, 53, 2);
 }
 
 footer {
     background-color: grey;
     padding-bottom: 2rem;
+}
+
+.hello {
+    font-family: Handlee;
+    font-size: 1.8rem;
+    padding-top: 7rem;
+}
+
+.hello:hover {
+    font-size: 2rem;
 }
 
 li {
@@ -24,7 +37,7 @@ li {
 
 li a {
     align-items: center;
-    color: rgb(177, 42, 42);
+    color: white;
     display: block;
     font-family: Monaco, monospace;
     text-align: center;
@@ -32,11 +45,10 @@ li a {
 }
 
 li a:hover {
-    color: red;
+    color: black;
 }
 
 .logo {
-  
   font-size: 1.5rem;
   margin-left: 3rem;
   padding-bottom: 0.1rem;
@@ -50,8 +62,17 @@ li a:hover {
 
 .mssg {
     font-family: cursive;
-    font-size: 1.5rem;
     margin-left: 1rem;
+}
+
+.name {
+    font-family: Cookie;
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.name:hover {
+    font-size: 5rem;
 }
 
 .nav {
@@ -60,17 +81,31 @@ li a:hover {
 }
 
 .welcome {
-    background-color: rgba(255, 255, 0, 0.6);
+    background-color: beige;
     border-radius: 0.2rem;
 }
 
 header {
   align-items: end;
-  background-color: yellow;
+  background-color: red;
   border-radius: 0.3rem;
   display: flex;
   justify-content: space-between;
 
+}
+
+.serves {
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: Indie Flower;
+    font-size: 1.3rem;
+    justify-content: space-between;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.services {
+    background-color: rgba(255, 255, 255);
 }
 
 ul {
