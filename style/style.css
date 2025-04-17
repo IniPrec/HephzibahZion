@@ -132,3 +132,70 @@ nav {
   transform: scale(1.05);
   box-shadow: 0 0 15px gold;
 }
+
+/* Additional Animations */
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slideInRight {
+  from {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slideInUp {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes zoom-in {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes pulseAnim {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.slide-in-left {
+  animation: slideInLeft 1s ease-in-out forwards;
+}
+.slide-in-right {
+  animation: slideInRight 1s ease-in-out forwards;
+}
+.slide-in-up {
+  animation: slideInUp 1s ease-in-out forwards;
+}
+.zoom-in {
+  animation: zoomIn 0.8s ease-in-out forwards;
+}
+.pulse {
+  animation: pulseAnim 2s infinite;
+}
