@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | HephzibahZion</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <header class="fade-in">
+      <nav>
+        <h1 class="logo">HephzibahZion</h1>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="hats.html">Hats</a></li>
+          <li><a href="books.html">Books</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="contact-section fade-in">
+      <h2>Contact HephzibahZion</h2>
+      <form
+        action="https://formspree.io/f/xgvajwzv"
+        method="POST"
+        id="contact-form"
+      >
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="_replyto" placeholder="Your Email" required />
+        <textarea
+          name="message"
+          rows="5"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p id="form-status" style="color: gold; margin-top: 1rem"></p>
+    </main>
+
+    <section class="newsletter fade-in">
+      <h3>Join our Newsletter</h3>
+      <form action="https://formspree.io/f/xgvajwzv" method="POST">
+        <input type="email" name="_replyto" placeholder="Your Email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <button id="scrollToTop" title="Back to Top">↑</button>
+
+    <script src="js/script.js"></script>
+  </body>
+
+  <footer class="site-footer fade-in">
+    <p>&copy; 2025 HephzibahZion | Made with 💛 by Inioluwa</p>
+    <div class="footer-links">
+      <a href="#">Instagram</a>
+      <a href="#">WhatsApp</a>
+      <a href="#">Email</a>
+    </div>
+  </footer>
+</html>
