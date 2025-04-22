@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About | HephzibahZion</title>
     <link rel="stylesheet" href="style/style.css" />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
   </head>
   <body>
     <header class="fade-in">
@@ -37,6 +43,26 @@
       </p>
     </main>
 
+    <section class="testimonials-section"></section>
+      <h2>What Our Customers Say</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <p>"Absolutely loved the straw hat! So elegant!" – Grace</p>
+          </div>
+          <div class="swiper-slide">
+            <p>
+              "The Christian books are deeply inspiring. Thank you!" – Daniel
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <p>"HephzibahZion is my new go-to gift shop. 10/10!" – Tolu</p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
     <section class="newsletter fade-in">
       <h3>Join our Newsletter</h3>
       <form action="https://formspree.io/f/xgvajwzv" method="POST">
@@ -48,6 +74,8 @@
     <button id="scrollToTop" title="Back to Top">↑</button>
 
     <script src="js/script.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   </body>
 
   <footer class="site-footer fade-in">

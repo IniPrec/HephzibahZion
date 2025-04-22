@@ -384,7 +384,7 @@ button:hover {
   transition: background-color 0.3s ease;
 }
 
-.add-to-cart-btn a{
+.add-to-cart-btn a {
   color: black;
   text-decoration: none;
 }
@@ -454,9 +454,10 @@ button:hover {
 .checkout-body {
   background-color: #111;
   color: #f4f4f4;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.checkout-summary, .checkout-form {
+.checkout-summary,
+.checkout-form {
   max-width: 600px;
   margin: 2rem auto;
   padding: 1.5rem;
@@ -490,4 +491,78 @@ button:hover {
   font-size: 1.2rem;
   margin-top: 1.5rem;
   color: #90ee90;
+}
+
+.filter-buttons {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.filter-buttons button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filter-buttons button:hover {
+  background-color: #555;
+}
+
+.shop-links {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.shop-links h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+}
+
+.shop-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.shop-btn {
+  padding: 1rem 2rem;
+  background: #fff;
+  color: #000;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.shop-btn:hover {
+  background: #ffcc00;
+  color: #000;
+  transform: scale(1.05);
+}
+
+.testimonials-section {
+  padding: 40px 20px;
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+}
+
+.swiper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.swiper-slide {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  font-style: italic;
 }

@@ -9,6 +9,11 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap"
     />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <header class="fade-in">
@@ -21,6 +26,7 @@
           <li><a href="books.html">Books</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="cart.html">Cart</a></li>
+          <li id="user-greeting"><a href="login.html">Login</a></li>
         </ul>
       </nav>
     </header>
@@ -32,23 +38,33 @@
       </section>
     </main>
 
+    <section class="shop-links fade-in">
+      <h2>Explore Our Collections</h2>
+      <div class="shop-buttons">
+        <a href="hats.html" class="shop-btn">🧢 Shop Hats</a>
+        <a href="books.html" class="shop-btn">📚 Shop Books</a>
+      </div>
+    </section>
+
     <section class="verse fade-in">
       <h3>Verse of the Day</h3>
       <p id="daily-verse">Loading...</p>
     </section>
 
     <section class="newsletter fade-in">
-        <h3>Join our Newsletter</h3>
-        <form action="https://formspree.io/f/xgvajwzv" method="POST">
-            <input type="email" name="_replyto" placeholder="Your Email" required />
-            <button type="submit">Subscribe</button>
-        </form>
+      <h3>Join our Newsletter</h3>
+      <form action="https://formspree.io/f/xgvajwzv" method="POST">
+        <input type="email" name="_replyto" placeholder="Your Email" required />
+        <button type="submit">Subscribe</button>
+      </form>
     </section>
-    
+
     <button id="scrollToTop" title="Back to Top">↑</button>
-    
+
     <script src="js/script.js"></script>
-</body>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </body>
 
   <footer class="site-footer fade-in">
     <p>&copy; 2025 HephzibahZion | Made with 💛 by Inioluwa</p>

@@ -129,3 +129,42 @@ function decreaseQuantity(index) {
   localStorage.setItem("cart", JSON.stringify(cart));
   location.reload(); // re-render
 }
+
+function filterProducts(criteria) {
+  const products = document.querySelectorAll(".product-card");
+
+  products.forEach((product) => {
+    const category = product.dataset.category;
+    const price = parseFloat(product.dataset.price);
+
+    let show = false;
+
+    if (criteria === "all") show = true;
+    else if (criteria === "affordable" && price <= 5000) show = true;
+    else if (category === criteria) show = true;
+
+    product.style.display = show ? "block" : "none";
+  });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  new Swiper(".mySwiper", {
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
+  });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  const userGreeting = document.getElementById("user-greeting");
+  const user = JSON.parse(localStorage.getItem("user"));
+
+  if (user && user.name) {
+    userGreeting.innerHTML = `<a href="#">Hi, ${user.name.split(" ")[0]}!</a>`;
+  }
+});

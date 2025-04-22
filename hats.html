@@ -23,12 +23,22 @@
 
     <main class="product-gallery fade-in">
       <h2>Our Handmade Hats</h2>
+      <div class="filter-buttons">
+        <button onclick="filterProducts('all')">All</button>
+        <button onclick="filterProducts('new')">New Arrivals</button>
+        <button onclick="filterProducts('bestseller')">Best Sellers</button>
+        <button onclick="filterProducts('affordable')">
+          Affordable (Under ₦5,000)
+        </button>
+      </div>
+
       <div class="grid">
         <div
           class="product-card"
           data-id="1"
           data-name="ELegant Straw Hat"
           data-price="5000"
+          data-category="bestseller"
         >
           <img src="img/hat1.jpg" alt="Straw Hat" />
           <p>ELegant Straw Hat - ₦5,000</p>
@@ -41,6 +51,7 @@
           data-id="2"
           data-name="Royal Purple Beret"
           data-price="4500"
+          data-category="new affordable"
         >
           <img src="img/hat2.jpg" alt="Royal Purple Beret" />
           <p>Royal Purple Beret - ₦4,500</p>
@@ -53,6 +64,7 @@
           data-id="3"
           data-name="Vintage Lace Hat"
           data-price="6000"
+          data-category="bestseller"
         >
           <img src="img/hat3" alt="Vintage Lace Hat" />
           <p>Vintage Lace Hat - ₦6,000</p>
@@ -65,6 +77,7 @@
           data-id="4"
           data-name="Crimson Crown"
           data-price="5500"
+          data-category="new"
         >
           <img src="img/hat4" alt="Crimson Crown" />
           <p>Crimson Crown - ₦5,500</p>
@@ -77,6 +90,7 @@
           data-id="5"
           data-name="Classic Fedora"
           data-price="4000"
+          data-category="bestseller affordable"
         >
           <img src="img/hat5" alt="Classic Fedora" />
           <p>Classic Fedora - ₦4,000</p>
@@ -89,6 +103,7 @@
           data-id="6"
           data-name="Bold Blue Turban"
           data-price="6200"
+          data-category="new"
         >
           <img src="img/hat6" alt="Bold Blue Turban" />
           <p>Bold Blue Turban - ₦6,200</p>
