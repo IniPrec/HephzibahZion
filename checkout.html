@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout - HephzibahZion</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body class="checkout-body">
+    <header class="fade-in">
+      <nav>
+        <h1 class="logo">HephzibahZion</h1>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="cart.html">Back to Cart</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <h2>Checkout</h2>
+      <div id="checkout-summary" class="checkout-summary"></div>
+
+      <form id="checkou-form" class="checkout-form">
+        <input type="text" name="name" placeholder="Full Name" required />
+        <input type="text" name="email" placeholder="Email" required />
+        <input
+          type="text"
+          name="address"
+          placeholder="Shipping Address"
+          required
+        />
+        <button type="submit" class="checkout-btn">Place Order</button>
+      </form>
+
+      <p id="checkout-status" class="checkout-status"></p>
+    </div>
+
+    <script src="js/checkout.js"></script>
+  </body>
+</html>

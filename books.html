@@ -16,6 +16,7 @@
           <li><a href="hats.html">Hats</a></li>
           <li><a href="books.html">Books</a></li>
           <li><a href="contact.html">Contact</a></li>
+          <li><a href="cart.html">Cart</a></li>
         </ul>
       </nav>
     </header>
@@ -23,29 +24,77 @@
     <main class="product-gallery fade-in">
       <h2>Christian Books for the Soul</h2>
       <div class="grid">
-        <div class="product-card pulse">
+        <div
+          class="product-card"
+          data-id="1"
+          data-name="The Purpose Driven Life"
+          data-price="3500"
+        >
           <img src="img/book1.jpg" alt="The Purpose Driven Life" />
           <p>The Purpose Driven Life - ₦3,500</p>
+          <button onclick="addToCart(this)" class="add-to-cart-btn">
+            Add to Cart
+          </button>
         </div>
-        <div class="product-card">
+        <div
+          class="product-card"
+          data-id="2"
+          data-name="Battlefield of the Mind"
+          data-price="4000"
+        >
           <img src="img/book2.jpg" alt="Battlefield of the Mind" />
           <p>Battlefield of the Mind - ₦4,000</p>
+          <button onclick="addToCart(this)" class="add-to-cart-btn">
+            Add to Cart
+          </button>
         </div>
-        <div class="product-card zoom-in">
+        <div
+          class="product-card"
+          data-id="3"
+          data-name="Power of a Praying Woman"
+          data-price="3200"
+        >
           <img src="img/book3.jpg" alt="Power of a Praying Woman" />
           <p>Power of a Praying Woman - ₦3,200</p>
+          <button onclick="addToCart(this)" class="add-to-cart-btn">
+            Add to Cart
+          </button>
         </div>
-        <div class="product-card pulse">
+        <div
+          class="product-card"
+          data-id="4"
+          data-name="Faith like Potatoes"
+          data-price="3800"
+        >
           <img src="img/book4.jpg" alt="Faith Like Potatoes" />
           <p>Faith Like Potatoes - ₦3,800</p>
+          <button onclick="addToCart(this)" class="add-to-cart-btn">
+            Add to Cart
+          </button>
         </div>
-        <div class="product-card pulse">
+        <div
+          class="product-card"
+          data-id="5"
+          data-name="Fervent"
+          data-price="4500"
+        >
           <img src="img/book5.jpg" alt="Fervent" />
           <p>Fervent - ₦4,500</p>
+          <button onclick="addToCart(this)" class="add-to-cart-btn">
+            Add to Cart
+          </button>
         </div>
-        <div class="product-card slideInUp">
+        <div
+          class="product-card"
+          data-id="6"
+          data-name="Experiencing God"
+          data-price="4000"
+        >
           <img src="img/book6.jpg" alt="Experiencing God" />
           <p>Experiencing God - ₦4,000</p>
+          <button onclick="addToCart(this)" class="add-to-cart-btn">
+            Add to Cart
+          </button>
         </div>
         <!-- More books to be added -->
       </div>
@@ -63,5 +112,5 @@
       <a href="#">WhatsApp</a>
       <a href="#">Email</a>
     </div>
-  </footer>  
+  </footer>
 </html>

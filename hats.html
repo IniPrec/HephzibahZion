@@ -16,6 +16,7 @@
           <li><a href="hats.html">Hats</a></li>
           <li><a href="books.html">Books</a></li>
           <li><a href="contact.html">Contact</a></li>
+          <li><a href="cart.html">Cart</a></li>
         </ul>
       </nav>
     </header>
@@ -23,29 +24,77 @@
     <main class="product-gallery fade-in">
       <h2>Our Handmade Hats</h2>
       <div class="grid">
-        <div class="product-card pulse">
+        <div
+          class="product-card"
+          data-id="1"
+          data-name="ELegant Straw Hat"
+          data-price="5000"
+        >
           <img src="img/hat1.jpg" alt="Straw Hat" />
           <p>ELegant Straw Hat - ₦5,000</p>
+          <button onclick="addToCart(this)" class="add-to-cart-btn">
+            Add to Cart
+          </button>
         </div>
-        <div class="product-card">
+        <div
+          class="product-card"
+          data-id="2"
+          data-name="Royal Purple Beret"
+          data-price="4500"
+        >
           <img src="img/hat2.jpg" alt="Royal Purple Beret" />
           <p>Royal Purple Beret - ₦4,500</p>
+          <button onclick="addToCart(this)" class="add-to-cart-btn">
+            Add to Cart
+          </button>
         </div>
-        <div class="product-card zoom-in">
+        <div
+          class="product-card"
+          data-id="3"
+          data-name="Vintage Lace Hat"
+          data-price="6000"
+        >
           <img src="img/hat3" alt="Vintage Lace Hat" />
           <p>Vintage Lace Hat - ₦6,000</p>
+          <button onclick="addToCart(this)" class="add-to-cart-btn">
+            Add to Cart
+          </button>
         </div>
-        <div class="product-card pulse">
+        <div
+          class="product-card"
+          data-id="4"
+          data-name="Crimson Crown"
+          data-price="5500"
+        >
           <img src="img/hat4" alt="Crimson Crown" />
           <p>Crimson Crown - ₦5,500</p>
+          <button onclick="addToCart(this)" class="add-to-cart-btn">
+            Add to Cart
+          </button>
         </div>
-        <div class="product-card pulse">
+        <div
+          class="product-card"
+          data-id="5"
+          data-name="Classic Fedora"
+          data-price="4000"
+        >
           <img src="img/hat5" alt="Classic Fedora" />
           <p>Classic Fedora - ₦4,000</p>
+          <button onclick="addToCart(this)" class="add-to-cart-btn">
+            Add to Cart
+          </button>
         </div>
-        <div class="product-card slideInLeft">
+        <div
+          class="product-card"
+          data-id="6"
+          data-name="Bold Blue Turban"
+          data-price="6200"
+        >
           <img src="img/hat6" alt="Bold Blue Turban" />
           <p>Bold Blue Turban - ₦6,200</p>
+          <button onclick="addToCart(this)" class="add-to-cart-btn">
+            Add to Cart
+          </button>
         </div>
         <!-- More to be added -->
       </div>
@@ -63,5 +112,5 @@
       <a href="#">WhatsApp</a>
       <a href="#">Email</a>
     </div>
-  </footer  
+  </footer>
 </html>
